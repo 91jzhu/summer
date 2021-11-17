@@ -1,0 +1,13 @@
+12
+37C:\Users\DELL\Desktop\cute dog-1\dist132734986134474745 1
+36C:\Users\DELL\Desktop\cute dog-1\src132734195073189894 1
+55C:\Users\DELL\Desktop\cute dog-1\dist\index.bd78eeec.js132734986134434863 0
+46C:\Users\DELL\Desktop\cute dog-1\src\style.css132734986133621344 0
+47C:\Users\DELL\Desktop\cute dog-1\src\index.html132734980522858298 0
+59C:\Users\DELL\Desktop\cute dog-1\dist\index.01a1c8c0.js.map132734195153632897 0
+44C:\Users\DELL\Desktop\cute dog-1\src\main.js132734195052030000 0
+55C:\Users\DELL\Desktop\cute dog-1\dist\index.01a1c8c0.js132734195153583035 0
+59C:\Users\DELL\Desktop\cute dog-1\dist\index.bd78eeec.js.map132734986134454818 0
+56C:\Users\DELL\Desktop\cute dog-1\dist\index.de60a1d7.css132734986134424983 0
+60C:\Users\DELL\Desktop\cute dog-1\dist\index.de60a1d7.css.map132734986134454818 0
+48C:\Users\DELL\Desktop\cute dog-1\dist\index.html132734986134424983 0

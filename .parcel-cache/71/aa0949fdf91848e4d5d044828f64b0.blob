@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>Cute Dog</title>
+</head>
+
+<body>
+    <div class="body">
+        <div class="ear"></div>
+        <div class="ear"></div>
+        <div class="eyebrow"></div>
+        <div class="eyebrow"></div>
+        <div class="eye"></div>
+        <div class="eye"></div>
+        <div class="nose"></div>
+        <div class="mouth"></div>
+        <div class="belt"></div>
+        <div class="pocket"></div>
+        <div class="foot"></div>
+        <div class="foot"></div>
+        <div class="foot"></div>
+        <div class="foot"></div>
+        <div class="tail"></div>
+    </div>
+</body>
+
+</html><script src="/index.HASH_REF_42412dc50fd44bf0205308ab01a1c8c0.js"></script>

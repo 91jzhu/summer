@@ -1,0 +1,55 @@
+var _css = require("./css");
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _cssDefault = _parcelHelpers.interopDefault(_css);
+let n = 1;
+demo.innerText = _cssDefault.default.substr(0, n);
+demo2.innerHTML = _cssDefault.default.substr(0, n);
+let time = 25;
+const player = {
+  run: () => {
+    if (n === _cssDefault.default.length) {
+      return;
+    }
+    n++;
+    demo.innerText = _cssDefault.default.substr(0, n);
+    demo2.innerHTML = _cssDefault.default.substr(0, n);
+    demo.scrollTop = demo.scrollHeight;
+  },
+  play: () => {
+    return setInterval(player.run, time);
+  },
+  pause: () => {
+    window.clearInterval(setTime);
+  },
+  slow: () => {
+    player.pause();
+    time = 50;
+    setTime = play();
+  },
+  normal: () => {
+    player.pause();
+    time = 15;
+    setTime = play();
+  },
+  fast: () => {
+    player.pause();
+    time = 0;
+    setTime = play();
+  }
+};
+let setTime = play();
+btnStop.onclick = () => {
+  pause();
+};
+btnPlay.onclick = () => {
+  setTime = play();
+};
+btnSlow.onclick = () => {
+  slow();
+};
+btnNormal.onclick = () => {
+  normal();
+};
+btnFast.onclick = () => {
+  fast();
+};

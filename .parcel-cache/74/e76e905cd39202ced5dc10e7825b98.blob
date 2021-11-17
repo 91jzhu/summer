@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+
+<body>
+    <div id="demo"></div>
+    <div id="demo2"></div>
+    <style data-parcel-key="a12546a517439f00d3b156825d0957db">
+        #html {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50vh;
+        }
+
+        #demo {
+            position: fixed;
+            height: 80vh;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow-y: auto;
+        }
+
+        #demo::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+    <div id="html">
+        <div class="skin">
+            <div class="sun">
+                <div class="circle"></div>
+            </div>
+            <div class="body">
+                <div class="ear left"></div>
+                <div class="ear right"></div>
+                <div class="eyebrow left"></div>
+                <div class="eyebrow right"></div>
+                <div class="eye left"></div>
+                <div class="eye right"></div>
+                <div class="nose"></div>
+                <div class="line"></div>
+                <div class="mouth left"></div>
+                <div class="mouth right"></div>
+                <div class="oral"></div>
+                <div class="tongue"></div>
+                <div class="belt"></div>
+                <div class="tape1"></div>
+                <div class="tape2"></div>
+                <div class="pocket"></div>
+                <div class="foot one"></div>
+                <div class="foot two"></div>
+                <div class="foot three"></div>
+                <div class="foot four"></div>
+                <div class="tail"></div>
+            </div>
+        </div>
+    </div>
+    <script src="59bc471e807f3680672f4abe4a4a002a"></script>
+</body>
+
+</html>

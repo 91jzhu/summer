@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+
+<body>
+    <div id="demo"></div>
+    <div id="demo2"></div>
+    <div id="buttons">
+        <button id="btnStop"></button>
+        <button id="btnPlay"></button>
+        <button id="btnSlow"></button>
+        <button id="btnMiddle"></button>
+        <button id="btnFast"></button>
+    </div>
+    <style>#buttons {
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+        #html {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50vh;
+        }
+
+        #demo {
+            position: fixed;
+            height: 50vh;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow-y: auto;
+            background-color: lightgreen;
+        }
+
+        #demo::-webkit-scrollbar {
+            display: none;
+        }
+</style>
+    <div id="html">
+        <div class="skin">
+            <div class="sun">
+                <div class="circle"></div>
+            </div>
+            <div class="body">
+                <div class="ear left"></div>
+                <div class="ear right"></div>
+                <div class="eyebrow left"></div>
+                <div class="eyebrow right"></div>
+                <div class="eye left"></div>
+                <div class="eye right"></div>
+                <div class="nose"></div>
+                <div class="line"></div>
+                <div class="mouth left"></div>
+                <div class="mouth right"></div>
+                <div class="oral"></div>
+                <div class="tongue"></div>
+                <div class="belt"></div>
+                <div class="tape1"></div>
+                <div class="tape2"></div>
+                <div class="pocket"></div>
+                <div class="foot one"></div>
+                <div class="foot two"></div>
+                <div class="foot three"></div>
+                <div class="foot four"></div>
+                <div class="tail"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/test.HASH_REF_dda62e61c518901762dac47a15efcf68.js"></script>
+</body>
+
+</html>

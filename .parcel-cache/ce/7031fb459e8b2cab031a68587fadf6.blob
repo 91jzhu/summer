@@ -1,0 +1,128 @@
+*{box-sizing: border-box;margin:0;padding:0;}
+*::before,*::after{box-sizing: border-box;}
+body{
+    background-color: rgb(182, 254, 252);
+}
+.body{
+    height:120px;
+    width: 80px;
+    background-color: rgb(255, 165, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 35px;
+    position: relative;
+}
+.ear{
+    height:50px;
+    width:25px;
+    margin-top: -12px;
+    background-color: rgb(255, 165, 0);
+    position: relative;
+}
+.ear::before{
+    content: "";
+    display: block;
+    width:15px;
+    height: 30px;
+    position: absolute;
+    left:50%;
+    top:8px;
+    margin-left:-7.5px;
+    border-radius: 180px/300px;
+    background-color: rgb(238, 96, 0);
+}
+.ear.left{
+    position: absolute;
+    border-radius: 180px/300px;
+    margin-left: 3px;
+    z-index:-1;
+}
+.ear.right{
+    position: absolute;
+    right:0;
+    border-radius: 180px/300px;
+    margin-right: 3px;
+    z-index:-1;
+}
+.eyebrow{
+    width: 11px;
+    height: 7px;
+    background-color: white;
+    border-radius: 20px;
+}
+.eyebrow.left{
+    position: absolute;
+    left:16px;
+    top:8px;
+}
+.eyebrow.right{
+    position: absolute;
+    right:16px;
+    top:8px;
+}
+.eye{
+    border:2.5px solid black;
+    width:12px;
+    height: 10px;
+    border-radius: 50%;
+}
+.eye::before{
+    content: "";
+    display: block;
+    width:14px;
+    height:6px;
+    position: relative;
+    left:-3px;
+    top:3px;
+    background-color: rgb(255, 165, 0);
+}
+.eye.left{
+    position: absolute;
+    left: 20px;
+    top:18px;
+}
+.eye.right{
+    position: absolute;
+    right: 20px;
+    top:18px;
+}
+.nose{
+    width: 12px;
+    height: 7px;
+    position: absolute;
+    left:50%;
+    top:24px;
+    margin-left: -6px;
+    border-radius: 0 0 50px 50px;
+    background-color: rgb(81, 46, 39);
+}
+.mouth{
+    border:1.5px solid black;
+    width: 12px;
+    height: 7px;
+    border-radius: 0 0 50px 50px;
+}
+.mouth::before{
+    content:"";
+    display: block;
+    border:1px solid black;
+    width: 20px;
+    height: 2px;
+    position:absolute;
+    left:50%;
+    top:-2px;
+    margin-left: -10px;
+}
+.mouth.left{
+    position: absolute;
+    left:50%;
+    margin-left: -12px;
+    top:40px;
+}
+.mouth.right{
+    position: absolute;
+    right:50%;
+    margin-right: -12px;
+    top:40px;
+}
